@@ -1,13 +1,16 @@
 import React, { useState } from 'react';
-import Head from 'next/head';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
+
+import Head from 'next/head';
 import Image from 'next/legacy/image';
 
 import image3d from '../../public/dev-ed-wave.png';
+
 import design from '../../public/design.png';
 import code from '../../public/code.png';
 import consulting from '../../public/consulting.png';
+
 import web1 from '../../public/web1.png';
 import web2 from '../../public/web2.png';
 import web3 from '../../public/web3.png';
