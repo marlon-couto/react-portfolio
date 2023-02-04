@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        burtons: 'burtons',
+        jetBrainsMono: 'jet-brains-mono',
       },
     },
   },

@@ -111,6 +111,6 @@ a {
 }
 
 @font-face {
-  font-family: 'burtons';
-  src: url('../../public/Burtons.otf');
+  font-family: 'jet-brains-mono';
+  src: url('../../public/JetBrainsMono.ttf');
 }
