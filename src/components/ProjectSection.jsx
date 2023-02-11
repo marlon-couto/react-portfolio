@@ -31,10 +31,10 @@ export default function ProjectSection() {
           pessoais.
         </p>
       </div>
-
+      {/* TODO: adiciona animações aos cards de projeto */}
       <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
         {images.map(({ src, alt }) => (
-          <Project key={src} image={src} description={alt} />
+          <Project key={alt} image={src} description={alt} />
         ))}
       </div>
     </section>
